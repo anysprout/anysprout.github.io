@@ -14,10 +14,11 @@ h1 {
 }
 
 nav a {
-    margin-right: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    color: #1a73e8;
+    background-color: #f1f3f6;
+    padding: 18px 25px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    border: 1px solid #e2e6ea;
 }
 
 nav a:hover {
