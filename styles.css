@@ -13,16 +13,26 @@ h1 {
     font-size: 2.5em;
 }
 
+nav {
+  background-color: #eef1f5;
+  border: 1px solid #d6dbe1;
+  padding: 14px 18px;
+  margin: 0 0 35px 0;
+  border-radius: 0;
+}
+
 nav a {
-    background-color: #f1f3f6;
-    padding: 18px 25px;
-    margin-bottom: 40px;
-    border-radius: 6px;
-    border: 1px solid #e2e6ea;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 22px;
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 section {
