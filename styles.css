@@ -71,8 +71,20 @@ section {
 }
 
 .hero-image img {
-  width: 140px;      /* adjust size here */
-  height: 140px;
+  width: 400px;      /* adjust size here */
+  height: 400px;
   object-fit: cover;
   border-radius: 8px; /* keeps it clean but not overly rounded */
+}
+
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-image img {
+    width: 300px;
+    height: 300px;
+  }
 }
