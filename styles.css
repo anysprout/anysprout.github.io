@@ -58,21 +58,26 @@ section {
 }
 
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  column-gap: 30px;
+  row-gap: 10px;
+  align-items: start;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.hero-text {
-  flex: 1;
+.hero-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
-.hero-image img {
-  width: 400px;      /* adjust size here */
-  height: 400px;
-  object-fit: cover;
-  border-radius: 8px; /* keeps it clean but not overly rounded */
+.hero-about {
+  grid-column: 1 / -1; /* makes About full width under both columns */
+}
+
+.hero-intro h1 {
+  margin-top: 0;
 }
