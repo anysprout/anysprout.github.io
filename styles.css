@@ -56,3 +56,23 @@ section {
   color: #1a73e8;
   text-decoration: underline;
 }
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 140px;      /* adjust size here */
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px; /* keeps it clean but not overly rounded */
+}
