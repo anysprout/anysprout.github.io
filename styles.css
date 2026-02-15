@@ -106,10 +106,16 @@ section {
 }
 
 .subnav a.active {
+  background-color: #1a73e8;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 16px;
+}
+
+.subnav a:not(.active):hover {
   color: #1a73e8;
   text-decoration: underline;
 }
-
 
 @media (max-width: 900px) {
   .subnav {
