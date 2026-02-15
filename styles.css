@@ -76,15 +76,3 @@ section {
   object-fit: cover;
   border-radius: 8px; /* keeps it clean but not overly rounded */
 }
-
-@media (max-width: 700px) {
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero-image img {
-    width: 300px;
-    height: 300px;
-  }
-}
