@@ -80,24 +80,22 @@ section {
 
 .subnav {
   margin-top: -25px;
-  margin-bottom: 30px;
-  padding: 10px 12px;
+  margin-bottom: 25px;
+  padding: 8px 12px;
   background-color: #f3f5f8;
   border: 1px solid #d6dbe1;
   border-radius: 6px;
 
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 14px;
   align-items: center;
-
-  overflow-x: auto;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
 
 .subnav a {
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.9em;
   color: #2c3e50;
 }
 
