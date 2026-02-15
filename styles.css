@@ -48,13 +48,14 @@ section {
 
 .course-list a {
   text-decoration: none;
-  color: #2c3e50;
-  font-weight: 500;
+  color: #1a73e8;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(26, 115, 232, 0.6);
+  padding-bottom: 2px;
 }
 
 .course-list a:hover {
-  color: #1a73e8;
-  text-decoration: underline;
+  border-bottom: 2px solid rgba(26, 115, 232, 1);
 }
 
 .hero {
